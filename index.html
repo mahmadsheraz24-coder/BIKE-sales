@@ -3,189 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmad Motorsports - Premium Pakistani Bikes</title>
-    <meta name="description" content="Ahmad Motorsports offers the best prices on top Pakistani motorcycles including Honda, Yamaha, Suzuki, and more.">
+    <title>Aura Elysium | High-End Luxury Fragrances</title>
+    <meta name="description" content="Discover Aura Elysium, the ultimate destination for luxury perfumes and exclusive fragrances.">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts for Premium Look -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav id="navbar">
+    
+    <!-- Navigation -->
+    <header class="navbar">
         <div class="nav-container">
-            <h1 class="logo">AHMAD <span>MOTORSPORTS</span></h1>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#bikes">Our Bikes</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
+            <a href="#" class="logo">AURA ELYSIUM</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-bag"></i>
             </div>
         </div>
-    </nav>
-
-    <header id="home" class="hero">
-        <div class="hero-content">
-            <h2 class="animate-up">Conquer the Roads of Pakistan</h2>
-            <p class="animate-up delay-1">Premium motorcycles. Unbeatable prices. Your journey starts with Ahmad Motorsports.</p>
-            <a href="#bikes" class="btn primary-btn animate-up delay-2">Explore the Fleet <i class="fas fa-arrow-right"></i></a>
-        </div>
-        <div class="hero-overlay"></div>
     </header>
 
-    <section id="bikes" class="section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Featured Motorcycles</h2>
-                <p>Top models trusted by millions across the nation.</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">Essence of <br><span>Elegance</span></h1>
+            <p class="hero-subtitle">Discover the signature scent that defines your soul.</p>
+            <a href="#collection" class="btn btn-primary">Discover Collection</a>
+        </div>
+    </section>
+
+    <!-- Product Collection -->
+    <section id="collection" class="collection-section">
+        <div class="section-header fade-in">
+            <h2 class="section-title">The Signature Collection</h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card fade-in">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop" alt="Midnight Velvet Perfume" class="product-img">
+                    <div class="product-overlay">
+                        <button class="btn btn-outline quick-add">Add to Bag</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Midnight Velvet</h3>
+                    <p class="product-notes">Oud wood, Amber, Dark Vanilla</p>
+                    <p class="product-price">$245.00</p>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card fade-in delay-1">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800&auto=format&fit=crop" alt="Golden Elixir Perfume" class="product-img">
+                    <div class="product-overlay">
+                        <button class="btn btn-outline quick-add">Add to Bag</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Golden Elixir</h3>
+                    <p class="product-notes">Bergamot, Rose, Sandalwood</p>
+                    <p class="product-price">$195.00</p>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card fade-in delay-2">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?q=80&w=800&auto=format&fit=crop" alt="Oceanic Whisper Perfume" class="product-img">
+                    <div class="product-overlay">
+                        <button class="btn btn-outline quick-add">Add to Bag</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Oceanic Whisper</h3>
+                    <p class="product-notes">Sea Salt, Jasmine, Vetiver</p>
+                    <p class="product-price">$180.00</p>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card fade-in delay-3">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1595425970377-c9703bc48b39?q=80&w=800&auto=format&fit=crop" alt="Crimson Allure Perfume" class="product-img">
+                    <div class="product-overlay">
+                        <button class="btn btn-outline quick-add">Add to Bag</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Crimson Allure</h3>
+                    <p class="product-notes">Wild Cherry, Pink Pepper, Musk</p>
+                    <p class="product-price">$210.00</p>
+                </div>
             </div>
             
-            <div class="bikes-grid">
-                <!-- Bike 1 -->
-                <div class="bike-card">
-                    <div class="bike-image">
-                        <img src="https://images.unsplash.com/photo-1558981359-219d6364c9c8?auto=format&fit=crop&q=80&w=600" alt="Honda CD 70">
-                        <div class="badge">Bestseller</div>
-                    </div>
-                    <div class="bike-info">
-                        <h3>Honda CD 70</h3>
-                        <p class="specs">72cc • 4-Stroke • 4-Speed</p>
-                        <div class="price-row">
-                            <span class="price">PKR 157,900</span>
-                            <button class="btn sn-btn">View Details</button>
-                        </div>
+            <!-- Product 5 -->
+            <div class="product-card fade-in">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=800&auto=format&fit=crop" alt="Noir Absolute Perfume" class="product-img">
+                    <div class="product-overlay">
+                        <button class="btn btn-outline quick-add">Add to Bag</button>
                     </div>
                 </div>
+                <div class="product-info">
+                    <h3 class="product-name">Noir Absolute</h3>
+                    <p class="product-notes">Leather, Spices, Tobacco Leaf</p>
+                    <p class="product-price">$285.00</p>
+                </div>
+            </div>
 
-                <!-- Bike 2 -->
-                <div class="bike-card">
-                    <div class="bike-image">
-                        <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&q=80&w=600" alt="Honda CG 125">
-                    </div>
-                    <div class="bike-info">
-                        <h3>Honda CG 125</h3>
-                        <p class="specs">124cc • 4-Stroke OHV • 4-Speed</p>
-                        <div class="price-row">
-                            <span class="price">PKR 234,900</span>
-                            <button class="btn sn-btn">View Details</button>
-                        </div>
+            <!-- Product 6 -->
+            <div class="product-card fade-in delay-1">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=800&auto=format&fit=crop" alt="Luminous Pearl Perfume" class="product-img">
+                    <div class="product-overlay">
+                        <button class="btn btn-outline quick-add">Add to Bag</button>
                     </div>
                 </div>
-
-                <!-- Bike 3 -->
-                <div class="bike-card">
-                    <div class="bike-image">
-                        <img src="https://images.unsplash.com/photo-1502744688674-c619d1586c9e?auto=format&fit=crop&q=80&w=600" alt="Yamaha YBR 125G">
-                        <div class="badge premium">Premium</div>
-                    </div>
-                    <div class="bike-info">
-                        <h3>Yamaha YBR 125G</h3>
-                        <p class="specs">124cc • OHC 4-Stroke • 5-Speed</p>
-                        <div class="price-row">
-                            <span class="price">PKR 485,000</span>
-                            <button class="btn sn-btn">View Details</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bike 4 -->
-                <div class="bike-card">
-                    <div class="bike-image">
-                        <img src="https://images.unsplash.com/photo-1591104616223-1d02bb4ee228?auto=format&fit=crop&q=80&w=600" alt="Suzuki GD 110S">
-                    </div>
-                    <div class="bike-info">
-                        <h3>Suzuki GD 110S</h3>
-                        <p class="specs">113cc • 4-Stroke • 4-Speed</p>
-                        <div class="price-row">
-                            <span class="price">PKR 352,000</span>
-                            <button class="btn sn-btn">View Details</button>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Bike 5 -->
-                <div class="bike-card">
-                    <div class="bike-image">
-                        <img src="https://images.unsplash.com/photo-1614144477817-80962382dc3a?auto=format&fit=crop&q=80&w=600" alt="Suzuki GS 150">
-                    </div>
-                    <div class="bike-info">
-                        <h3>Suzuki GS 150</h3>
-                        <p class="specs">150cc • 4-Stroke • 5-Speed</p>
-                        <div class="price-row">
-                            <span class="price">PKR 382,000</span>
-                            <button class="btn sn-btn">View Details</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bike 6 -->
-                <div class="bike-card">
-                    <div class="bike-image">
-                        <img src="https://images.unsplash.com/photo-1520106292554-1b3c9fc1ceeb?auto=format&fit=crop&q=80&w=600" alt="United US 150">
-                        <div class="badge eco">Eco Choice</div>
-                    </div>
-                    <div class="bike-info">
-                        <h3>United US 150</h3>
-                        <p class="specs">150cc • 4-Stroke • 5-Speed</p>
-                        <div class="price-row">
-                            <span class="price">PKR 340,000</span>
-                            <button class="btn sn-btn">View Details</button>
-                        </div>
-                    </div>
+                <div class="product-info">
+                    <h3 class="product-name">Luminous Pearl</h3>
+                    <p class="product-notes">White Lily, Pear, White Musk</p>
+                    <p class="product-price">$175.00</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="section dark-section">
-        <div class="container about-container">
-            <div class="about-content">
-                <h2>Why Choose Ahmad Motorsports?</h2>
-                <p>With over 10 years of experience serving riders across Pakistan, Ahmad Motorsports is the most trusted dealership for genuine motorcycles. We guarantee authentic products, transparent pricing, and unparalleled after-sales service.</p>
-                <ul class="features">
-                    <li><i class="fas fa-check-circle"></i> Authorized Dealership</li>
-                    <li><i class="fas fa-tags"></i> Competitive Market Prices</li>
-                    <li><i class="fas fa-tools"></i> Expert Maintenance Services</li>
-                    <li><i class="fas fa-handshake"></i> Easy Installment Plans</li>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-image fade-in left">
+                <img src="https://images.unsplash.com/photo-1616604847432-8df21b2b8cbb?q=80&w=800&auto=format&fit=crop" alt="Perfume Ingredients">
+            </div>
+            <div class="about-text fade-in right">
+                <h2 class="section-title">The Art of Perfumery</h2>
+                <div class="divider align-left"></div>
+                <p>At Aura Elysium, we believe that a fragrance is more than just a scent; it is an invisible signature that lingers in the minds of others. Handcrafted by master perfumers in Grasse, France, every bottle encapsulates memories, passions, and dreams.</p>
+                <p>We source only the rarest and most exquisite raw materials—from genuine Bulgarian Rose to pure Sri Lankan Sandalwood—ensuring that each drop speaks volumes of unparalleled luxury and sophistication.</p>
+                <a href="#collection" class="btn btn-secondary">Explore Our Heritage</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>AURA ELYSIUM</h2>
+                <p>The epitome of olfactory excellence. Indulge in scents that transcend time and space.</p>
+                <div class="social-links">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Boutique</h3>
+                <ul>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Exclusive Sets</a></li>
+                    <li><a href="#">Gift Cards</a></li>
                 </ul>
             </div>
-            <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1558981852-426c6c22a060?auto=format&fit=crop&q=80&w=600" alt="Ahmad Motorsports Showroom">
+            <div class="footer-links">
+                <h3>Customer Care</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
             </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container contact-container">
-            <div class="cta-box">
-                <h2>Ready to ride?</h2>
-                <p>Visit our showroom today or contact us for home delivery options.</p>
-                <div class="contact-methods">
-                    <div class="method"><i class="fas fa-phone"></i> +92 300 1234567</div>
-                    <div class="method"><i class="fas fa-envelope"></i> info@ahmadmotorsports.pk</div>
-                    <div class="method"><i class="fas fa-map-marker-alt"></i> Auto Market, Lahore</div>
+            <div class="footer-newsletter">
+                <h3>Join the Inner Circle</h3>
+                <p>Subscribe to receive exclusive offers and updates.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Email Address">
+                    <button type="button">Subscribe</button>
                 </div>
             </div>
         </div>
-    </section>
-
-    <footer>
-        <div class="container footer-content">
-            <div class="brand">
-                <h2>AHMAD MOTORSPORTS</h2>
-                <p>Driving Pakistan Forward.</p>
-            </div>
-            <div class="socials">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-        </div>
-        <div class="bottom-bar">
-            <p>&copy; 2026 Ahmad Motorsports. All rights reserved.</p>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aura Elysium. All rights reserved.</p>
         </div>
     </footer>
 
